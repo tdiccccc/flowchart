@@ -24,3 +24,16 @@ taro-takashi-akemi
 array_a = gets.split(' ') #スペースで区切って配列として格納
 array_b = gets.split('-') #ハイフンで区切って配列として格納
 
+#入力メソッド
+
+#入力値:文字列　改行：あり
+input = gets
+
+#入力値：文字列　改行：なし
+input = gets.chomp
+
+#入力値：数値   改行：あり
+input = gets.to_i
+
+#入力値：数値　 改行：なし
+input = gets.chomp.to_i
